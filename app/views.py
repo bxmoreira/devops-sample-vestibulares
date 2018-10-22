@@ -29,7 +29,7 @@ def contact(request):
         context_instance = RequestContext(request,
         {
             'title':'Contato',
-            'message':'Entre em contato conosco',
+            'message':'Entre em contato conosco Agile Works',
             'year':datetime.now().year,
         })
     )
@@ -43,7 +43,7 @@ def about(request):
         context_instance = RequestContext(request,
         {
             'title':'About',
-            'message':'Gerenciador de vestibulares',
+            'message':'Agile Works',
             'year':datetime.now().year,
         })
     )
